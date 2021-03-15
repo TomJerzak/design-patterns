@@ -18,7 +18,7 @@ namespace FactoryMethod
         // through its base interface. As long as the client keeps working with
         // the creator via the base interface, you can pass it any creator's
         // subclass.
-        internal void ClientCode(Creator creator)
+        private void ClientCode(Creator creator)
         {
             // ...
             Console.WriteLine(
